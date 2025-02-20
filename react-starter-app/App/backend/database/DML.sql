@@ -23,13 +23,11 @@ SELECT e.eventID, e.eventName, e.eventDate, v.venueName, e.eventDescription
 FROM Events e
 JOIN Venues v ON e.venueID = v.venueID;
 
--- SELECT: Retrieve all events
-SELECT * FROM Events;
-
 -- SELECT: Retrieve a single event
-SELECT *
-FROM Events
-WHERE eventID = :eventIDInput;
+SELECT e.eventID, e.eventName, e.eventDate, v.venueName, e.eventDescription
+FROM Events e
+JOIN Venues v ON e.venueID = v.venueID
+WHERE e.eventName = :eventNameInput;
 
 -- UPDATE: Update an existing event
 UPDATE Events
