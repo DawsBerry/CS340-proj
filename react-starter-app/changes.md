@@ -10,7 +10,7 @@ Below is a comprehensive list of fixes we need to implement along with the origi
 - **Fix:**  
   Updated the DDL by removing the `eventAttendeeID` column and defining the primary key as `(eventID, attendeeID)`, ensuring each event-attendee pair is unique.
 
-## 2. PDF & Submission Requirements (NOT DONE)
+## 2. PDF & Submission Requirements (DONE)
 - **Suggestion:**  
   - Rename your zip file to `projectgroup87_step3_DRAFT.zip`.
   - Do not include the HTML files in the zip (the web pages should only be available online).
@@ -18,7 +18,7 @@ Below is a comprehensive list of fixes we need to implement along with the origi
 - **Fix:**  
   These changes have been noted for documentation and submission purposes. Ensure that the final submission meets these requirements.
 
-## 3. SQL Best Practices – SELECT Queries (NOT DONE)
+## 3. SQL Best Practices – SELECT Queries (DONE)
 - **Suggestion:**  
   Replace all “SELECT *” queries with explicit column selections to avoid potential issues (e.g., receiving too many columns, order changes) and to improve code clarity.
 - **Fix:**  
