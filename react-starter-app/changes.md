@@ -61,19 +61,13 @@ Below is a comprehensive list of fixes we need to implement along with the origi
   Verified that each HTML file includes a consistent header with navigation links, and that each entity (including the many-to-many EventAttendees) has dedicated forms for CRUD operations.
 
 
-  ## Suggestor: **Alexandra Orlova**
+## Suggestor: **Alexandra Orlova**
 
-  ## 1. Dropdowns Use Names (DONE)
-  - **Suggestion:**
-    Offering a drop down of events by name, not id.
-  - **Fix:**
-    All drop downs use the corresponding name, rather than the corresponding ID.
-
-  ## 2. ON UPDATE CASCADE (NOT DONE)
-  - **Suggestion:**
-    Add ON UPDATE CASCADE statements to the FK's.
-  - **Fix:**
-    All foreign keys in the DDL file have been updated to include ON UPDATE CASCADE statements.
+## 1. Dropdowns Use Names (DONE)
+- **Suggestion:**
+  Offering a drop down of events by name, not id.
+- **Fix:**
+  All drop downs use the corresponding name, rather than the corresponding ID.
 
 ---
 
