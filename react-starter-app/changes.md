@@ -48,7 +48,7 @@ Below is a comprehensive list of fixes we need to implement along with the origi
 - **Fix:**  
   Updated all HTML files (`attendees.html`, `event_attendees.html`, `events.html`, `speakers.html`, `venues.html`) so that every form field uses descriptive names that correspond with the updated DML host variable names.
 
-## 8. Dynamic Dropdown Population (NOT DONE)
+## 8. Dynamic Dropdown Population (DONE)
 - **Suggestion:**  
   For forms like the “Add New Event” page, ensure that dropdowns (e.g., for selecting a venue) are dynamically populated with current data from the database rather than hard-coded options.
 - **Fix:**  
@@ -59,6 +59,21 @@ Below is a comprehensive list of fixes we need to implement along with the origi
   Ensure that all pages (for each table/entity) are accessible via the navigation menu and that actions (insert, update, delete) are consistent across the site.
 - **Fix:**  
   Verified that each HTML file includes a consistent header with navigation links, and that each entity (including the many-to-many EventAttendees) has dedicated forms for CRUD operations.
+
+
+  ## Suggestor: **Alexandra Orlova**
+
+  ## 1. Dropdowns Use Names (DONE)
+  - **Suggestion:**
+    Offering a drop down of events by name, not id.
+  - **Fix:**
+    All drop downs use the corresponding name, rather than the corresponding ID.
+
+  ## 2. ON UPDATE CASCADE (NOT DONE)
+  - **Suggestion:**
+    Add ON UPDATE CASCADE statements to the FK's.
+  - **Fix:**
+    All foreign keys in the DDL file have been updated to include ON UPDATE CASCADE statements.
 
 ---
 
